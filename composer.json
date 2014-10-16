@@ -1,0 +1,36 @@
+{
+    "name": "neoxygen/neo4j-console-client",
+    "type": "library",
+    "description": "PHP Client for the Neo4j Console API",
+    "keywords": [
+        "graph",
+        "neo4j",
+        "api",
+        "client",
+        "console"
+    ],
+    "homepage": "http://www.neoxygen.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christophe Willemsen",
+            "email": "chris@neoxygen.io"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle" : "4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neoxygen\\ConsoleClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Neoxygen\\ConsoleClient\\Tests\\": "tests/Neoxygen/ConsoleClient/Tests"
+        }
+    }
+}
